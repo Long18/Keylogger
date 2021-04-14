@@ -1,0 +1,13 @@
+D:\Keylogger\Windows Application\Windows Application\bin\Debug\Windows Application.exe.config
+D:\Keylogger\Windows Application\Windows Application\bin\Debug\Windows Application.exe
+D:\Keylogger\Windows Application\Windows Application\bin\Debug\Windows Application.pdb
+D:\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.csprojResolveAssemblyReference.cache
+D:\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.exe
+D:\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.pdb
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\bin\Debug\Windows Application.exe.config
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\bin\Debug\Windows Application.exe
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\bin\Debug\Windows Application.pdb
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\obj\Debug\Windows Application.csprojAssemblyReference.cache
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\obj\Debug\Windows Application.csproj.CoreCompileInputs.cache
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\obj\Debug\Windows Application.exe
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\obj\Debug\Windows Application.pdb
