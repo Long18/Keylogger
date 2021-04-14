@@ -11,3 +11,10 @@ E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Appli
 E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\obj\Debug\Windows Application.csproj.CoreCompileInputs.cache
 E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\obj\Debug\Windows Application.exe
 E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Windows Application\Windows Application\obj\Debug\Windows Application.pdb
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\bin\Debug\Windows Application.exe.config
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\bin\Debug\Windows Application.exe
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\bin\Debug\Windows Application.pdb
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.csprojAssemblyReference.cache
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.csproj.CoreCompileInputs.cache
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.exe
+E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.pdb

