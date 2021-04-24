@@ -18,3 +18,10 @@ E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Win
 E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.csproj.CoreCompileInputs.cache
 E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.exe
 E:\[Application] Đồ án\Bảo Mật Thông Tin\Keylogger-Hutech\Keylogger\Windows Application\Windows Application\obj\Debug\Windows Application.pdb
+C:\Users\Admin\OneDrive\Desktop\Keylogger-main\Keylogger-main\Windows Application\Windows Application\bin\Debug\Windows Application.exe.config
+C:\Users\Admin\OneDrive\Desktop\Keylogger-main\Keylogger-main\Windows Application\Windows Application\bin\Debug\Windows Application.exe
+C:\Users\Admin\OneDrive\Desktop\Keylogger-main\Keylogger-main\Windows Application\Windows Application\bin\Debug\Windows Application.pdb
+C:\Users\Admin\OneDrive\Desktop\Keylogger-main\Keylogger-main\Windows Application\Windows Application\obj\Debug\Windows Application.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\Keylogger-main\Keylogger-main\Windows Application\Windows Application\obj\Debug\Windows Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\Keylogger-main\Keylogger-main\Windows Application\Windows Application\obj\Debug\Windows Application.exe
+C:\Users\Admin\OneDrive\Desktop\Keylogger-main\Keylogger-main\Windows Application\Windows Application\obj\Debug\Windows Application.pdb

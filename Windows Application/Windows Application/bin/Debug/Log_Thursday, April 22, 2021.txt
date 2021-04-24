@@ -1,0 +1,1 @@
+[Ctrl]z[Ctrl]l[Left-Shift]1[Left-Shift]2[Left-Shift]3[Ctrl]l[Left-Shift]@[Left-Shift]#[Left-Shift]$[Left-Shift]%[Ctrl]l[160]!@#$%[160]![160]@[160]#[160]$[160]%

